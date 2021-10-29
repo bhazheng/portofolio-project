@@ -2,14 +2,15 @@
 
 body {
     margin: 0;
+    
     font-family: 'Poppins', sans-serif;
-    background-color: FAEEE0;
+    background-color: #FAFAFA;
 }
 
 .hero {
 
     padding-top: 50px;
-    background-color: #F9CF93;
+    background-color: #E8F1F5;
     padding-bottom: 50px;
 }
 .hero a {
@@ -27,26 +28,30 @@ body {
     margin-bottom: 2rem;
 }
 nav{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 footer {
     display: flex;
     padding-top: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     flex: 33%;
-    background-color: #F9CF93;
+    background-color: #E8F1F5;
     padding-bottom: 25px;
 }
 
 
-section {
-    padding-left: 100px;
+.about-item , .skill-item, .project-item {
+    padding-left: 200px;
     padding-top: 20px;
-    padding-right: 100px;
+    padding-right: 200px;
 }
-
+.item-list{
+    color: #004A7C;
+}
 .hero p {
     font-size: 20px;
 }
@@ -57,11 +62,11 @@ section {
 .project-item a {
     display: flex;
     text-decoration: none;
-    color: black;
+    color: #004A7C;
     
 }
 .project-item ol {
-    font-size: medium;
+    font-size: larger;
 }
 
 
